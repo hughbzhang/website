@@ -26,9 +26,9 @@
               <p style="text-align:center">
                 <name>Hugh Zhang</name>
               </p>
-              <p>I recently joined <a href="https://scale.com/"> Scale AI </a> to help kickstart our open source AI research efforts. As such, I'm currently on indefinite leave from Harvard.
+              <p>I recently decided to take a leave of absence from Harvard to join <a href="https://scale.com/"> Scale AI </a> and kickstart our open source AI research efforts.
               <br><br>
-              Previously, I was a software engineer at <a href="https://asana.com/"> Asana </a> (gap year before college), studied Economics at Stanford, and have worked at <a href="https://research.google/teams/brain/"> Google Brain</a>, <a href="https://ai.facebook.com"> Meta AI </a>, and <a href="https://deepmind.google/"> Google Deepmind</a>. At Harvard, I was a PhD candidate in the Harvard EconCS group, where I am advised by <a href="https://parkes.seas.harvard.edu/"> David Parkes </a> and supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowships Program </a> and a <a href="https://www.harvard.edu/kempner-institute/"> Kempner Institute Graduate Fellowship</a>. 
+              At Harvard, I'm a PhD candidate advised by <a href="https://parkes.seas.harvard.edu/"> David Parkes </a> and supported by the <a href="https://www.nsfgrfp.org/"> NSF Graduate Research Fellowships Program </a> and a <a href="https://www.harvard.edu/kempner-institute/"> Kempner Institute Graduate Fellowship</a>. Previously, I was a software engineer at <a href="https://asana.com/"> Asana </a> (gap year before college), studied Economics at Stanford, and have worked at <a href="https://research.google/teams/brain/"> Google Brain</a>, <a href="https://ai.facebook.com"> Meta AI </a>, and <a href="https://deepmind.google/"> Google Deepmind</a>. 
 
               My current research interest revolves around teaching large language models to do reasoning and planning. Previously, I did similar work as part of the <a href="https://ai.facebook.com/research/cicero/"> <em>CICERO</em> </a> project, the first AI agent to achieve human-level performance in the game of <a href="https://en.wikipedia.org/wiki/Diplomacy_(game)"> Diplomacy </a>.
               <br><br>
@@ -37,7 +37,7 @@
               <p style="text-align:center">
            
                 <a href="mailto:hughbzhang@gmail.com">Email</a> &nbsp/&nbsp
-                <a href="data/CV.pdf">CV</a> &nbsp/&nbsp
+                <a href="data/cv.pdf">CV</a> &nbsp/&nbsp
                 <a href="https://scholar.google.com/citations?hl=en&user=CgZ9uJkAAAAJ">Google Scholar</a> &nbsp/&nbsp
                 <a href="https://twitter.com/hughbzhang">Twitter</a> &nbsp/&nbsp
                 <a href="https://www.goodreads.com/user/show/60478481-hugh-zhang">Goodreads</a> &nbsp/&nbsp
@@ -54,12 +54,81 @@
             <td style="padding:20px;width:100%;vertical-align:middle">
               <heading>Research</heading>
               <p>
-                In the past, I've been interested in multi-agent reinforcement learning, game theory, and language models. Much of my research is trying to figure out how to cram all three into one project. <strong>* denotes equal or alphabetical ordering.</strong>
+                My current work focuses on evals, test-time compute, and post-training for LLMs. Previously, I also worked on multi-agent reinforcement learning and game theory. <strong>* denotes equal or alphabetical ordering.</strong>
+
               </p>
             </td>
           </tr>
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/plansearch.jpg" alt="plansearch">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2409.03733">
+                <papertitle>Planning In Natural Language Improves LLM Search For Code Generation</papertitle>
+              </a>
+              <br>
+              Evan Wang, Federico Cassano, Catherine Wu, Yunfeng Bai, Will Song, Vaskar Nath, Ziwen Han, Sean Hendryx, Summer Yue, <strong>Hugh Zhang</strong>
+              <br>
+              <p>Searching over a diverse set of ideas/plans in natural language significantly helps code generation and is far more effective that repeated sampling.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/gsm1k.jpg" alt="gsm1k">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2405.00332">
+                <papertitle>A Careful Examination of Large Language Model Performance on Grade School Arithmetic</papertitle>
+              </a>
+              <br>
+              <strong>Hugh Zhang</strong>, Jeff Da, Dean Lee, Vaughn Robinson, Catherine Wu, Will Song, Tiffany Zhao, Pranav Raja, Dylan Slack, Qin Lyu, Sean Hendryx, Russell Kaplan, Michele Lunati, Summer Yue
+              <br>
+              <em>NeurIPS Spotlight (Datasets and Benchmarks Track)</em>, 2024
+              <br>
+              <p>We clone GSM8k to measure dataset contamination. Some models show signs of overfitting, but frontier models show strong generalization.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/mhj.png" alt="mhj">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2408.15221">
+                <papertitle>LLM Defenses Are Not Robust to Multi-Turn Human Jailbreaks Yet</papertitle>
+              </a>
+              <br>
+              Nathaniel Li, Ziwen Han, Ian Steneker, Willow Primack, Riley Goodside, <strong>Hugh Zhang</strong>, Zifan Wang, Cristina Menghini, Summer Yue
+              <br>
+              <em>Red Teaming GenAI Workshop @ NeurIPS</em>, 2024
+              <br>
+              <p>We demonstrate that multi-turn human jailbreaks can achieve >70% success rates against LLM defenses that report single-digit success rates for automated single-turn attacks.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/goal_conditioned.png" alt="gcrl">
+            </td>
+            <td width="75%" valign="middle">
+              <a href="https://arxiv.org/abs/2407.13887">
+                <papertitle>Learning Goal-Conditioned Representations for Language Reward Models</papertitle>
+              </a>
+              <br>
+              Vaskar Nath, Dylan Slack, Jeff Da, Yuntao Ma, <strong>Hugh Zhang</strong>, Spencer Whitehead, Sean Hendryx
+              <br>
+              <em>NeurIPS</em>, 2024
+              <p> Representation learning may be useful for post-training LLMs.
+              </p>
+              <br>
+            </td>
+          </tr>
+
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/qprobe.jpg" alt="QProbe">
@@ -74,7 +143,7 @@
               <strong>Hugh Zhang</strong>,
               <a href="https://sham.seas.harvard.edu/">Sham Kakade</a>,
               <a href="https://www.bewitched.com/">Martin Wattenberg</a>,
-              <a href="https://davidbrandfonbrener.github.io/">David Brandfonbrener</a>,
+              <a href="https://davidbrandfonbrener.github.io/">David Brandfonbrener</a>
               
               <br>
               <p>A lightweight alternative to fine-tuning that performs better than LORA for very small datasets and requires minimal model access.</p>
@@ -97,7 +166,7 @@
               <a href="https://docs.google.com/presentation/d/1imBiG2oqYrWrvX471nI6VR0QaWl_rD6mPpFAhLtOTYg/edit#slide=id.g230e609b8a2_0_38">slides </a> /
               <a href="https://docs.google.com/presentation/d/1lzyGtYl2bG2cvfHm2qwvV7A-ZUWAKrCIx2lnVLy_X_k/edit#slide=id.g10e10bc6bc4_0_39">poster </a>
               <br>
-              <p>AlphaZero-like self-improvement for language models.</p>
+              <p>Training on chain-of-thoughts that lead to a correct answer can help a LLM self-improve and generalize far beyond their original capabilities in the toy environment of addition.</p>
             </td>
           </tr>
           <tr>
@@ -113,7 +182,7 @@
               <br>
               <a href="https://github.com/lucadwong/abcs">code </a>
               <br>
-              <p>Unified algorithm for both reinforcement learning and game theory. Can solve MDPs as fast as RL methods and imperfect-information games as fast as CFR using the <i>exact same set of hyperparameters.</i></p>
+              <p>Unified algorithm for both reinforcement learning and game theory. Can solve MDPs as fast as RL methods and imperfect-information games as fast as CFR using the <i>single set of hyperparameters.</i></p>
             </td>
           </tr>
 
