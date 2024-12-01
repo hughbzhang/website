@@ -129,3 +129,45 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  border: 0px;
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profile-section {
+  padding: 2.5%;
+  width: 63%;
+  vertical-align: middle;
+}
+
+.profile-image {
+  padding: 2.5%;
+  width: 40%;
+  max-width: 40%;
+}
+
+.profile-image img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.research-item {
+  padding: 20px;
+  width: 25%;
+  vertical-align: middle;
+}
+
+.research-content {
+  width: 75%;
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+}
